@@ -16,10 +16,10 @@ class class_name
 ```
 Here,
 
-**returnType** is the return type of the function.<br/><br/><br/>
-**operator** is a keyword.
-**symbol** is the operator we want to overload. Like: +, <, -, ++, etc.
-**argument**s is the arguments passed to the function.
+**returnType** is the return type of the function.<br/>
+**operator** is a keyword.<br/>
+**symbol** is the operator we want to overload. Like: +, <, -, ++, etc.<br/>
+**argument**s is the arguments passed to the function.<br/>
 
 There are 4 operators that cannot be overloaded in C++. They are:
 
