@@ -16,7 +16,7 @@ class class_name
 ```
 Here,
 
-**returnType** is the return type of the function.
+**returnType** is the return type of the function.<br/><br/><br/>
 **operator** is a keyword.
 **symbol** is the operator we want to overload. Like: +, <, -, ++, etc.
 **argument**s is the arguments passed to the function.
