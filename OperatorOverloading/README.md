@@ -28,4 +28,4 @@ There are 4 operators that cannot be overloaded in C++. They are:
 - __.* (member selection through pointer to function)__
 - __?: (ternary operator)__
 
-Note: We cannot use operator overloading for fundamental data types like **int**, **float**, **char** and so on.
+**Note:** With operator overloading, you can redefine the way an operator works only for the user-defined types (objects, structures). You cannot use it for built-in types (float, char, int, etc.).
