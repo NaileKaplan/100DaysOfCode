@@ -22,7 +22,7 @@ Here,
 **argument**s is the arguments passed to the function.
 
 There are 4 operators that cannot be overloaded in C++. They are:
-- :: (scope resolution)
-- . (member selection)
-- .* (member selection through pointer to function)
-- ?: (ternary operator)
+- **:: (scope resolution)**
+- **. (member selection)**
+- **.* (member selection through pointer to function)**
+- **?: (ternary operator)**
