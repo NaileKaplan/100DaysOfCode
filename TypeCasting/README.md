@@ -35,16 +35,20 @@ There are three major ways in which we can use explicit conversion in C++. They 
 2. Function notation (also known as old C++ style type casting)
 3. Type conversion operators
 
-***C-style Type Casting***
-```(data_type)expression;
+***1.C-style Type Casting***
+```
    //example
    int sum = (int)m + 1;
 ```
-***Function-style Casting***
-```data_type(expression);
+***2.Function-style Casting***
+```
    //example
    num_double = double(num_int);
 ```
-
+***3.Type conversion operators***
+-static_cast
+-dynamic_cast
+-const_cast
+-reinterpret_cast
 
 
