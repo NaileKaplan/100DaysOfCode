@@ -1,11 +1,11 @@
-**TYPE CONVERSION**
+##**TYPE CONVERSION**##
 
 C++ allows us to convert data of one type to that of another. This is known as type conversion.
 
 There are two types of type conversion in C++.
 
--Implicit Conversion <br/>
--Explicit Conversion (also known as Type Casting)
+- Implicit Conversion <br/>
+- Explicit Conversion (also known as Type Casting)
 
 ***Implicit Type Conversion***
 
@@ -46,9 +46,9 @@ There are three major ways in which we can use explicit conversion in C++. They 
    num_double = double(num_int);
 ```
 ***3.Type conversion operators***
--static_cast
--dynamic_cast
--const_cast
--reinterpret_cast
+- static_cast
+- dynamic_cast
+- const_cast
+- reinterpret_cast
 
 
