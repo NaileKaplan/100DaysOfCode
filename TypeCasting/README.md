@@ -16,8 +16,8 @@ They are automatically performed when a value is copied to a compatible type.
 
 It is possible for implicit conversions to lose information, signs can be lost (when signed is implicitly converted to unsigned), and overflow can occur (when long long is implicitly converted to float).
 
-long double -> double -> float -> long -> int -> short -> char (data loss)
-char -> short -> int -> long -> float -> double -> long double (no data loss)
+long double -> double -> float -> long -> int -> short -> char -> bool (data loss)
+bool -> char -> short -> int -> long -> float -> double -> long double (no data loss)
 
 ```
  short a=2000;
