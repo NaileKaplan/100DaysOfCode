@@ -51,4 +51,9 @@ There are three major ways in which we can use explicit conversion in C++. They 
 - const_cast
 - reinterpret_cast
 
+#### Static Cast ####
 
+It is a compile time cast.It does things like implicit conversions between types (such as int to float, or pointer to void*), and it can also call explicit conversion functions (or implicit ones).
+```
+   int n = static_cast<int>(m);
+```
