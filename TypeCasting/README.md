@@ -7,7 +7,7 @@ There are two types of type conversion in C++.
 - Implicit Conversion <br/>
 - Explicit Conversion (also known as Type Casting)
 
-***Implicit Type Conversion***
+### **Implicit Type Conversion** ###
 
 The implicit conversion is automatically done by compiler. This conversion does not require any operator. 
 They are automatically performed when a value is copied to a compatible type.
@@ -25,7 +25,7 @@ bool -> char -> short -> int -> long -> float -> double -> long double (no data 
  b=a;
 
 ```
-***Explicit Type Conversion***
+### **Explicit Type Conversion** ###
 
 When the user manually changes data from one type to another, this is known as explicit conversion. This type of conversion is also known as type casting.
 
