@@ -4,7 +4,7 @@ C++ allows us to convert data of one type to that of another. This is known as t
 
 There are two types of type conversion in C++.
 
--Implicit Conversion
+-Implicit Conversion <br/>
 -Explicit Conversion (also known as Type Casting)
 
 ***Implicit Type Conversion***
@@ -25,3 +25,26 @@ bool -> char -> short -> int -> long -> float -> double -> long double (no data 
  b=a;
 
 ```
+***Explicit Type Conversion***
+
+When the user manually changes data from one type to another, this is known as explicit conversion. This type of conversion is also known as type casting.
+
+There are three major ways in which we can use explicit conversion in C++. They are:
+
+1. C-style type casting (also known as cast notation)
+2. Function notation (also known as old C++ style type casting)
+3. Type conversion operators
+
+***C-style Type Casting***
+```(data_type)expression;
+   //example
+   int sum = (int)m + 1;
+```
+***Function-style Casting***
+```data_type(expression);
+   //example
+   num_double = double(num_int);
+```
+
+
+
