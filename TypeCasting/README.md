@@ -1,4 +1,4 @@
-##**TYPE CONVERSION**##
+## **TYPE CONVERSION** ##
 
 C++ allows us to convert data of one type to that of another. This is known as type conversion.
 
