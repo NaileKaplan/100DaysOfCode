@@ -57,3 +57,13 @@ It is a compile time cast.It does things like implicit conversions between types
 ```
    int n = static_cast<int>(m);
 ```
+#### Dynamic Cast ####
+
+dynamic_cast can only be used with pointers and references to classes (or with void*). Polymorphism is handled with this cast. It’s only necessary to use when casting to a derived class. In C++, dynamic casting is mainly used for safe downcasting at run time. To work on dynamic_cast there must be one virtual function in the base class.
+
+```
+   dynamic_cast <new_type>(Expression)
+```
+#### Const Cast ####
+
+const_cast is used to cast away the constness of variables. Inside a const member function, non-const class members can be modified with the cast.
