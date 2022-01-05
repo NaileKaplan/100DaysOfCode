@@ -67,3 +67,7 @@ dynamic_cast can only be used with pointers and references to classes (or with v
 #### Const Cast ####
 
 const_cast is used to cast away the constness of variables. Inside a const member function, non-const class members can be modified with the cast.
+
+#### Reinterpret Cast ####
+
+reinterpret_cast converts any pointer type to any other pointer type, even of unrelated classes. The operation result is a simple binary copy of the value from one pointer to the other. All pointer conversions are allowed: neither the content pointed nor the pointer type itself is checked. It doesn’t have any return type. It simply converts the pointer type.
